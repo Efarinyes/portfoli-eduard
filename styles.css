@@ -1,0 +1,50 @@
+.container {
+    margin: 0 auto;
+    width: 1440px;
+    height: 850px;
+    padding: 25px;
+}
+
+header {
+    width: 1440px;
+    height: 159px;
+    background-color: beige;
+}
+header h1 {
+    float:right;
+    padding-right: 10px;
+    margin-top: 100px;
+}
+.imatge-header {
+    width: 193px;
+    height: 134;
+    float: left;
+}
+aside {
+    width: 300px;
+    height: 791px;
+    background-color: beige;
+}
+.projectes {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 2;
+    background-image: url('imatges/codi.jfif');
+}
+.principal {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projecte {
+    color: white;
+    width: 247px;
+    height: 368px;
+    float:right;
+    
+}
+.titular {
+    font-weight: 700;
+}
+
