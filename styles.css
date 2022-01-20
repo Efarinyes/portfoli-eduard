@@ -1,3 +1,8 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .container {
     margin: 0 auto;
     width: 1440px;
@@ -6,9 +11,12 @@
 }
 
 header {
-    width: 1440px;
-    height: 159px;
+    /* width: 1440px;
+    height: 159px; */
+    display: flex;
+    justify-content: space-between;
     background-color: beige;
+    padding-right: 0.5%;
 }
 header h1 {
     float:right;
@@ -20,31 +28,78 @@ header h1 {
     height: 134;
     float: left;
 }
-aside {
-    width: 300px;
-    height: 791px;
-    background-color: beige;
-}
+
 .projectes {
-    margin: 10px;
     display: flex;
     justify-content: space-around;
     flex-grow: 2;
-    background-image: url('imatges/codi.jfif');
+    background-image: url('imatges/codi.jpg');
+    background-repeat: no-repeat;
+    background-color: beige; 
 }
+
 .principal {
     display: flex;
     justify-content: space-evenly;
 }
 
 .projecte {
-    color: white;
+    align-content: center;
+    background-color:beige;
+    opacity: 0.7;
+    margin-top: 15%;
     width: 247px;
-    height: 368px;
-    float:right;
-    
-}
-.titular {
-    font-weight: 700;
+    height: 30%;
+    padding-left: 1.5%;
+    padding-right: 1%;
 }
 
+.aside {
+    display:flex;
+    flex-direction: column;
+    padding-top: 150px;
+    width: 300px;
+    height: 791px;
+    background-color: beige; 
+}
+.aside-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.react-image {
+    width: 245px;
+    height: 155px;
+}
+
+.footer {
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    background-color: beige; 
+}
+.footer-social {
+    align-content: center;
+    padding: 1%;
+}
+.footer-social img {
+    margin-right: 1.5%;
+}
+.footer-social small {
+    margin-right: 1.5%;
+}
+
+.javascript-image {
+    width: 155;
+    height: 155;
+}
+.node-image {
+    width: 134px;
+    height: 155px;
+}
+.imatge-projecte {
+    display: flex;
+    justify-content: center;
+    
+}

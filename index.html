@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>Portfoli</title>
 </head>
 
@@ -15,32 +18,39 @@
             <img src="imatges/persona 1.png" alt="icono usuari" class='imatge-header'>
             <h1>Eduard Farinyes - Portfoli</h1>
         </header>
-        <div class = 'principal'>
-            <aside>
-                <ul>
-                    <li>
-                        <img src="imatges/about 1.png" alt="Icono user" class='img-aside'>
-                        <h3>Qui soc</h3>
-                    </li>
-                    <li>
-                        <img src="imatges/student 1.png" alt="Icono Student">
-                        <h3>Què he après</h3>
-                    </li>
-                    <li>
-                        <img src="imatges/informacio 1.png" alt="Icono Info">
-                        <h3>Contacte</h3>
-                    </li>
-                </ul>
-            </aside>
+        <hr>
+        <div class='principal'>
+            <div class='aside'>
+
+                <div class='aside-item'>
+                    <img src="imatges/about 1.png" alt="Icono user" class='img-aside'>
+                    <h2>Qui soc</h2>
+                </div>
+
+                <div class='aside-item'>
+                    <img src="imatges/student 1.png" alt="Icono Student">
+                    <h2>Què he après</h2>
+                </div>
+
+                <div class='aside-item'>
+                    <img src="imatges/informacio 1.png" alt="Icono Info">
+                    <h2>Contacte</h2>
+                </div>
+            </div>
             <div class='projectes'>
+
                 <div class='projecte'>
+
                     <h3>Projecte 1</h3>
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Totam blanditiis incidunt nesciunt exercitationem eius similique cum vel minima sequi tempora
                         dolores molestiae,
                         quaerat repellat architecto perspiciatis libero non odio! Labore.
                     </p>
-                    <img src="imatges/react.png" alt="react Logo" width="245" height="155">
+                    <div class='imatge-projecte'>
+                        <img src="imatges/reactLogo.png" alt="react Logo" class='react-image'>
+                    </div>
+
                 </div>
                 <div class='projecte'>
                     <h3>Projecte 2</h3>
@@ -49,7 +59,10 @@
                         dolores molestiae,
                         quaerat repellat architecto perspiciatis libero non odio! Labore.
                     </p>
-                    <img src="imatges/javaScript2 1.png" alt="Logo JS" width="155" height="155">
+                    <div class="imatge-projecte">
+                        <img src="imatges/javaScript2 1.png" alt="Logo JS" class='javascript-image'>
+                    </div>
+
                 </div>
                 <div class='projecte'>
                     <h3>Projecte 3</h3>
@@ -58,16 +71,23 @@
                         dolores molestiae,
                         quaerat repellat architecto perspiciatis libero non odio! Labore.
                     </p>
-                    <img src="imatges/node-js 1.png" alt="Logo Node" width="134" height="155">
+                    <div class="imatge-projecte">
+                        <img src="imatges/node-js 1.png" alt="Logo Node" class='node-image'>
+                    </div>
+
                 </div>
             </div>
         </div>
-        <footer>
-            <p>Eduard Farinyes - Portfoli </p>
-            <img src="imatges/twitter 1.png" alt="El meu twitter"> <small>@elMeuTwitter</small>
-            <img src="imatges/linkedin 1.png" alt="El meu Linkedin"> <small>elMeuLinkedin</small>
-            <img src="imatges/email3 1.png" alt="El meu Correu"><small>Contacta</small>
-            <p>Mataró - 2022 </p>
+        <hr>
+        <footer class='footer'>
+            <h3>Eduard Farinyes - Portfoli </h3>
+            <div class="footer footer-social">
+                <img src="imatges/twitter 1.png" alt="El meu twitter"> <small>@elMeuTwitter</small>
+                <img src="imatges/linkedin 1.png" alt="El meu Linkedin"> <small>elMeuLinkedin</small>
+                <img src="imatges/email3 1.png" alt="El meu Correu"><small>Contacta</small>
+            </div>
+
+            <h3>Mataró - 2022 </h3>
         </footer>
 
     </div>
