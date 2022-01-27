@@ -1,6 +1,7 @@
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poiret One', cursive;
+    background-color: white;
 }
 
 .container {
@@ -139,18 +140,19 @@ header h1 {
 .contacte {
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content:start;
+    align-items: center;
     flex-grow: 2;
     background-color:beige; 
-    padding: .9rem 0;
+    
 }
 .formulari {
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    flex-grow: 2;
-    margin-top: 5rem;
-    width: 80%;
+    justify-content: space-between;
+    
+    padding-top: 5rem;
+    
 }
 label {
     font-size: x-large;
@@ -160,27 +162,61 @@ label {
 input {
     font-size: 1.6rem;
 }
+.btn-input {
+    font-family: 'Poiret One', cursive;
+    background-color:darkseagreen; 
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+.btn-input:hover {
+    background-color: green;
+}
 /* .forms-estils label {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-}
+} */
 .forms-estils input {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
-    align-items: flex-end;
-} */
-.items-form {
+    
+    
+} 
+
+.items-form-nom {
     display: flex;
-    padding: .9rem;
-    align-items: baseline;
+    padding-top: .9rem;
+    padding-bottom: .9rem;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.items-form-cognom {
+    display:flex;
+    padding-top: .9rem;
+    padding-bottom: .9rem;
+    padding-right: 2.5rem;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.items-form-correu {
+    display: flex;
+    padding-top: .9rem;
+    padding-bottom: .9rem;
+    padding-right: 1.6rem;
+    align-items: flex-start;
     justify-content: space-between;
 }
 textarea{
-	width:50rem;
-	height:25rem;
+	width:40rem;
+	height:20rem;
 	border:1px solid black;
 	border-radius:8px;
 	background-color:antiquewhite;			
