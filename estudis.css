@@ -1,0 +1,21 @@
+.estudis {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: white; */
+}
+.estudi {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.estudi img {
+    width: 165px;
+    height: 155px;
+} 

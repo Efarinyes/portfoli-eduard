@@ -16,7 +16,7 @@ header {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    background-color: beige;
+    /* background-color: beige; */
     
 }
 header h1 {
@@ -35,7 +35,7 @@ header h1 {
     
     background-image: url('imatges/codi.jpg');
     background-repeat: no-repeat;
-    background-color: beige; 
+    /* background-color: beige;  */
 }
 
 .principal {
@@ -45,8 +45,9 @@ header h1 {
 
 .projecte {
     font-weight: 800;
+    
     align-content: center;
-    background-color:beige;
+    background-color:beige; 
     opacity: 0.7;
     margin-top: 15%;
     width: 247px;
@@ -59,7 +60,7 @@ header h1 {
     flex-direction: column;
     min-width: 21%;
     height: 779px;
-    background-color: beige; 
+    /* background-color: beige;  */
     padding-top: 11%;
 }
 .aside-item {
@@ -78,15 +79,12 @@ header h1 {
     text-decoration: none;
     color: black;
 }
-.react-image {
-    width: 246px;
-    height: 155px;
-}
+
 .footer {
     height: 15%;
     display: flex;
     justify-content: space-around;
-    background-color: beige; 
+    /* background-color: beige;  */
 }
 .footer-social {
     align-content: center;
@@ -101,6 +99,10 @@ header h1 {
 .footer a {
     text-decoration: none;
     color: black;
+}
+.react-image {
+    width: 246px;
+    height: 155px;
 }
 
 .javascript-image {
@@ -122,7 +124,7 @@ header h1 {
     justify-content: start;
     align-items: center;
     flex-grow: 2;
-    background-color:beige; 
+    /* background-color:beige;  */
     width: 85%;
     border-left: .5px solid black;
 }
@@ -146,7 +148,7 @@ header h1 {
     justify-content:start;
     align-items: center;
     flex-grow: 2;
-    background-color:beige; 
+    /* background-color:beige;  */
     border-left: .5px solid black;
     
 }
