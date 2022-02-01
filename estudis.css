@@ -19,3 +19,18 @@
     width: 165px;
     height: 155px;
 } 
+
+/* Estils responsive */
+@media (max-width: 750px ) {
+    .estudi {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+@media (max-width: 750px) {
+    .estudis {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
