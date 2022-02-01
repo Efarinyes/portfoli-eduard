@@ -5,8 +5,8 @@ body {
 
 .container {
     margin: 0 auto;
-    /* width: 1440px;
-    height: 850px; */
+    width: 1440px;
+    height: 100vh; 
     padding: 25px;
 } 
 
