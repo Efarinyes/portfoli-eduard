@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background-color: white; */
 }
 .estudi {
     padding-left: 1.5rem;
@@ -13,24 +12,28 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-   
+    
 }
 .estudi img {
     width: 165px;
     height: 155px;
 } 
-
-/* Estils responsive */
-@media (max-width: 750px ) {
+@media (max-width: 390px ) {
     .estudi {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+        font-size: 1rem;
     }
 }
-@media (max-width: 750px) {
+@media (max-width: 390px) {
     .estudis {
         justify-content: flex-start;
         align-items: flex-start;
+    }
+}
+@media (max-width: 390px) {
+    .quisoc h1 {
+        font-size: 1.5rem;
     }
 }
