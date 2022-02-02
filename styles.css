@@ -12,8 +12,8 @@ body {
     margin: 0 auto;
     /* width: 1440px;
     height: 100vh;   */
-   
-    padding: 25px;
+    padding-left: 1rem;
+    padding-right: 1rem;
 } 
 
 header {
@@ -23,7 +23,6 @@ header {
     align-items: flex-end;
     justify-content: space-between;
     /* background-color: beige; */
-    
 }
 header h1 {
     margin-right: 1rem;
@@ -58,7 +57,6 @@ header h1 {
 .principal {
     display: flex;
     justify-content: space-between;
-   
 }
 
 .projectes {
@@ -103,6 +101,10 @@ header h1 {
         font-size: 1.5rem;
     }
 }
+@keyframes aside-animation {
+    from{ transform:translateX(-50px); background-color: black; color:whitesmoke }
+    to{ transform: translateX(0); background-color: white; color:black;}
+}
 
 .aside {
     display:flex;
@@ -111,8 +113,10 @@ header h1 {
     height: 779px;
     /* background-color: beige;  */
     padding-top: 11%;
+    animation-name: aside-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease;
 }
-
 .aside-item {
     
     display: flex;
@@ -169,20 +173,47 @@ header h1 {
         align-items: center;
     }
 }
-
-
 .react-image {
     width: 246px;
     height: 155px;
+}
+@keyframes react-animation {
+    from {transform: translateX(-50px); opacity: 0; }
+    to {transform: translateX(0); opacity: 1; }
+}
+#react-image {
+    animation-name: react-animation;
+    animation-duration: 1s;
+    animation-timing-function: ease;
 }
 
 .javascript-image {
     width: 155;
     height: 155;
 }
+@keyframes javascript-animation {
+    from{transform: translateY(50px); opacity: 0; }
+    to{transform: translateY(0); opacity: 1; }
+}
+#js-image {
+    animation-name: javascript-animation;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+}
+
 .node-image {
     width: 134px;
     height: 155px;
+}
+
+@keyframes node-animation {
+    from {transform: translateX(50px); opacity: 0;}
+    to {transform:translateX(0); opacity: 1}
+}
+#node-image {
+    animation-name: node-animation;
+    animation-duration: 1s;
+    animation-timing-function: ease;
 }
 .imatge-projecte {
     display: flex;
@@ -232,53 +263,3 @@ header h1 {
         height: 150px;
     }
 }
-/* .forms-estils label {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-} */
-
-/* .forms-estils input {
-    display: flex;
-    flex-direction: row;
-} 
-
-.items-form-nom {
-    display: flex;
-    padding-top: .9rem;
-    padding-bottom: .9rem;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.items-form-cognom {
-    display:flex;
-    padding-top: .9rem;
-    padding-bottom: .9rem;
-    padding-right: 2.5rem;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.items-form-correu {
-    display: flex;
-    padding-top: .9rem;
-    padding-bottom: .9rem;
-    padding-right: 1.6rem;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-textarea{
-	width:40rem;
-	height:20rem;
-	border:1px solid black;
-	border-radius:8px;
-	background-color:antiquewhite;			
-	margin:8px 0;
-	/*resize: vertical | horizontal | none | both*/
-	/*resize:none;
-	/* display:block; */
-    
-/*}]*
