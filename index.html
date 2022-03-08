@@ -1,116 +1,137 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Portfoli</title>
-</head>
+  </head>
 
-<body>
-    <div class='container'>
-        <header>
-            <a href="index.html">
-                <img src="imatges/persona_1.png" alt="icono usuari" class='imatge-header'>
+  <body>
+    <div class="container">
+      <header>
+        <a href="index.html">
+          <img
+            src="imatges/persona_1.png"
+            alt="icono usuari"
+            class="imatge-header"
+          />
+        </a>
+        <h1>Eduard Farinyes - Portfoli</h1>
+      </header>
+      <hr />
+      <div class="principal">
+        <div class="aside">
+          <div class="aside-item">
+            <!-- <img src="imatges/about 1.png" alt="Icono user" class='img-aside'> -->
+            <a href="quiSoc.html">
+              <h2>Qui soc</h2>
             </a>
-            <h1>Eduard Farinyes - Portfoli</h1>
-        </header>
-        <hr>
-        <div class='principal'>
-            
-            <div class='aside' id = 'aside-mobile'>
-                
-                <div class='aside-item'>
-                    <!-- <img src="imatges/about 1.png" alt="Icono user" class='img-aside'> -->
-                    <a href="quiSoc.html">
-                        <h2>Qui soc</h2>
-                    </a>
 
-                    <i class="fa-solid fa-user"></i>
-                </div>
+            <i class="fa-solid fa-user"></i>
+          </div>
 
-                <div class='aside-item'>
-                    <!-- <img src="imatges/student 1.png" alt="Icono Student"> -->
+          <div class="aside-item">
+            <!-- <img src="imatges/student 1.png" alt="Icono Student"> -->
 
-                    <a href="estudis.html">
-                        <h2>Què he après</h2>
-                    </a>
-                    <i class="fa-solid fa-graduation-cap"></i>
-                </div>
+            <a href="estudis.html">
+              <h2>Què he après</h2>
+            </a>
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
 
-                <div class='aside-item'>
-                    <!-- <img src="imatges/informacio 1.png" alt="Icono Info"> -->
+          <div class="aside-item">
+            <!-- <img src="imatges/informacio 1.png" alt="Icono Info"> -->
 
-                    <a href="contacte.html">
-                        <h2>Contacte</h2>
-                    </a>
-                    <i class="fa-solid fa-paper-plane"></i>
-                </div>
-            </div>
-            <div class='projectes'>
-                <div class='projecte'>
-
-                    <h3>Projecte 1</h3>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Totam blanditiis incidunt nesciunt exercitationem eius similique cum vel minima sequi tempora
-                        dolores molestiae,
-                        quaerat repellat architecto perspiciatis libero non odio! Labore.
-                        
-                    </p>
-                    <div class='imatge-projecte' id = 'react-image' >
-                        <img src="imatges/reactLogo.png" alt="react Logo" class='react-image'>
-                    </div>
-
-                </div>
-                <div class='projecte'>
-                    <h3>Projecte 2</h3>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Totam blanditiis incidunt nesciunt exercitationem eius similique cum vel minima sequi tempora
-                        dolores molestiae,
-                        quaerat repellat architecto perspiciatis libero non odio! Labore.
-                    </p>
-                    <div class="imatge-projecte" id = 'js-image'>
-                        <img src="imatges/javaScript2 1.png" alt="Logo JS" class='javascript-image'>
-                    </div>
-
-                </div>
-                <div class='projecte' id = 'projecte-final'>
-                    <h3>Projecte 3</h3>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Totam blanditiis incidunt nesciunt exercitationem eius similique cum vel minima sequi tempora
-                        dolores molestiae,
-                        quaerat repellat architecto perspiciatis libero non odio! Labore.
-                    </p>
-                    <div class="imatge-projecte" id = 'node-image'>
-                        <img src="imatges/node-js 1.png" alt="Logo Node" class='node-image'>
-                    </div>
-                </div>
-            </div>
+            <a href="contacte.html">
+              <h2>Contacte</h2>
+            </a>
+            <i class="fa-solid fa-paper-plane"></i>
+          </div>
         </div>
-        <hr>
-        <footer class='footer'>
-            <h3>
-                <a href="index.html" class='footer'>Eduard Farinyes - Portfoli </a>
-            </h3>
-            <div class="footer footer-social">
-                <img src="imatges/twitter 1.png" alt="El meu twitter"> <small>@elMeuTwitter</small>
-                <img src="imatges/linkedin 1.png" alt="El meu Linkedin"> <small>elMeuLinkedin</small>
-                <img src="imatges/email3 1.png" alt="El meu Correu"><small>Contacta</small>
+        <div class="projectes">
+          <div class="projecte">
+            <h3>Projecte 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              blanditiis incidunt nesciunt exercitationem eius similique cum vel
+              minima sequi tempora dolores molestiae, quaerat repellat
+              architecto perspiciatis libero non odio! Labore.
+            </p>
+            <div class="imatge-projecte" id="react-image">
+              <img
+                src="imatges/reactLogo.png"
+                alt="react Logo"
+                class="react-image"
+              />
             </div>
+          </div>
+          <div class="projecte">
+            <h3>Projecte 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              blanditiis incidunt nesciunt exercitationem eius similique cum vel
+              minima sequi tempora dolores molestiae, quaerat repellat
+              architecto perspiciatis libero non odio! Labore.
+            </p>
+            <div class="imatge-projecte" id="js-image">
+              <img
+                src="imatges/javaScript2 1.png"
+                alt="Logo JS"
+                class="javascript-image"
+              />
+            </div>
+          </div>
+          <div class="projecte" id="projecte-final">
+            <h3>Projecte 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              blanditiis incidunt nesciunt exercitationem eius similique cum vel
+              minima sequi tempora dolores molestiae, quaerat repellat
+              architecto perspiciatis libero non odio! Labore.
+            </p>
+            <div class="imatge-projecte" id="node-image">
+              <img
+                src="imatges/node-js 1.png"
+                alt="Logo Node"
+                class="node-image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <footer class="footer">
+        <h3>
+          <a href="index.html" class="footer">Eduard Farinyes - Portfoli </a>
+        </h3>
+        <div class="footer footer-social">
+          <img src="imatges/twitter 1.png" alt="El meu twitter" />
+          <small>@elMeuTwitter</small>
+          <img src="imatges/linkedin 1.png" alt="El meu Linkedin" />
+          <small>elMeuLinkedin</small>
+          <img src="imatges/email3 1.png" alt="El meu Correu" /><small
+            >Contacta</small
+          >
+        </div>
 
-            <h3>Mataró - 2022 </h3>
-        </footer>
-
+        <h3>Mataró - 2022</h3>
+      </footer>
     </div>
-</body>
-
+  </body>
 </html>
