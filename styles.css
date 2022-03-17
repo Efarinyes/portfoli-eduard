@@ -286,3 +286,7 @@ header h1 {
     height: 150px;
   }
 }
+
+.itemsHeader {
+  padding: 2.5rem;
+}
